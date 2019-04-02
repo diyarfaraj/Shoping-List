@@ -1,0 +1,45 @@
+.cooling {
+	background-color: red; 
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.body{ 
+  display:flex; 
+  flex-direction:column; 
+}
+
+.h1 {
+	display: flex;
+	justify-content: center;
+}
+
+#first {
+	display: flex;
+	justify-content: center;
+}
+
+.resten {
+	display: grid;
+	justify-content: center;
+	resize: none;
+}
+
+#enter {
+
+	width: 5em;  height: 2em;
+	margin-left: 50px;
+	margin-top: 3px;
+}
+
+#footer {
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  font-style: italic;
+}
+
